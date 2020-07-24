@@ -1,0 +1,20 @@
+package td_java;
+
+import java.util.Scanner;
+
+
+public class Exo1 {
+
+	public static void main(String[] args) {
+		public static final 
+			Scanner donnee = new Scanner (System.in);
+			int a = donnee.nextInt();
+			int b = donnee.nextInt();
+			donnee.close();
+			float q = a / b;
+			System.out.println(q);
+		
+
+	}
+
+}

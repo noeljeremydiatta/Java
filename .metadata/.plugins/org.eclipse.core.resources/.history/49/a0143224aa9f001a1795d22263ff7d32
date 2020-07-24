@@ -1,0 +1,3 @@
+module td_java {
+	requires jdk.compiler;
+}

@@ -1,0 +1,21 @@
+package td_java;
+
+import java.util.Scanner;
+
+public class Exo1 {
+
+	public static void main(String[] args) {
+		System . out . println ( "Saisissez deux valeurs numériques : " ) ;
+		float i = Scanner.nextFloat( );
+		float j = Scanner.nextFloat( );
+		System.out.print ("Le produit de " + i + " par " + j + " est ") ;
+		if (i >= 0 && j >= 0 ||  i < 0 && j < 0){
+		System.out.println( "positif." ) ;
+		}
+		else
+		{
+		System.out.println("négatif.") ;
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package td_java;
+
+import java.util.Scanner;
+
+public class Exo1 {
+
+	public static void main(String[] args) {
+		Scanner entiers = new Scanner(System.in);
+		System.out.println( "Saisissez la valeur de a: ");
+		int nombreA = entiers.nextInt( );
+		System.out.print( "Saisissez la valeur de b: ");
+		int nombreB = entiers.nextInt( );
+		
+		}
+	}
+
+

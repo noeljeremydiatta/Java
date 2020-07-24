@@ -1,0 +1,37 @@
+package td_java;
+
+import java.util.Scanner;
+
+public class Exo1 {
+
+	public static void main(String[] args) {
+		long A,B;
+		do {
+		Scanner nombre = new Scanner(System.in);
+		System.out.print( "Saisissez la valeur de a: ");
+		 A = nombre.nextLong( );
+		System.out.print( "Saisissez la valeur de b: ");
+		  B = nombre.nextLong( );
+		} while(A <= 0 && B <= 0);
+		
+		 long quotient = A / B;
+		 double quotient1 = (double)(A / B);
+		 
+		 long r = A % B;
+	
+		
+		if (r == 0) {
+		System.out.println("le quotient entier da la divison est: "+ quotient);
+		System.out.println("le reste de la division est: "+ r);
+		}
+	
+		else {
+			System.out.println("le quotient réel de la division est: "+ quotient1);
+			System.out.println("le quotient de la division entière est: "+ r);
+		}
+		
+		
+	}
+}
+
+

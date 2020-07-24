@@ -1,0 +1,26 @@
+package td_java;
+
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Exo4 {
+
+	public static void main(String[] args) {
+		Scanner val = new Scanner(System.in);
+		System.out.print("Saisir la valeur du réel x: ");
+		float reel = val.nextFloat();
+		System.out.print("Saisir la valeur de l'esntier n: ");
+		int entier = val.nextInt();
+		val.close();
+		
+		
+		
+
+	}
+
+	private static int pow(float reel, int entier) {
+		int puissance = pow(reel,entier);
+		System.out.println(reel +" à la puissance " + entier + "est: " + puissance );
+		return 0;
+	}	
+}

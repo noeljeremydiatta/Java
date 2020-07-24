@@ -1,0 +1,19 @@
+package td_java;
+
+import java.util.Scanner;
+
+public class Exo1 {
+
+	public static void main(String[] args) {
+		Scanner entiers = new Scanner(System.in);
+		System.out.print( "Saisissez la valeur de a: ");
+		int entierA = entiers.nextInt( );
+		System.out.print( "Saisissez la valeur de b: ");
+		int entierB = entiers.nextInt( );
+		int quotient = entierA / entierB;
+		System.out.println("le quotient de la division entière est:"+quotient);
+		
+		}
+	}
+
+
